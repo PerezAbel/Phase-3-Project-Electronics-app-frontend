@@ -14,7 +14,7 @@ function Footer() {
               <li>Kenya, Nairobi</li>
               <li>South C, Bellaview</li>
             </ul>
-          </div>
+          </div> 1
 
           {/* Column 2 */}
           <div className="col">

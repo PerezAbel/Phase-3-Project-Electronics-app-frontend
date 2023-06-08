@@ -34,9 +34,7 @@
     background-color: #0056b3;
   }
   
-  
-  
-  
-  
-  
+  .card:hover {
+    background-color: whitesmoke;
+  }
   

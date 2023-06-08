@@ -1,43 +1,18 @@
-import React, { useState } from 'react';
+import React from 'react';   
+import { Link } from 'react-router-dom';  
 import '../css/NavBar.css';
 
 function NavBar() {
-  const [showForm, setShowForm] = useState(false);
-
-  const handleFormLinkClick = () => {
-    setShowForm(!showForm);
-  };
-
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Handle form submission logic here
-  };
-
   return (
-    <>
-      <nav>
-        <a href="#">Home</a>
-        <a href="#">Categories</a>
-        <a href="#" onClick={handleFormLinkClick}>Sign in</a>
-        <a href="#">Cart</a>
-        <a href="#">SellDevice</a>
-      </nav>
-      {showForm && (
-        <form onSubmit={handleSubmit}>
-          <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" required />
-
-          <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" required />
-
-          <label htmlFor="password">Password:</label>
-          <input type="password" id="password" name="password" required />
-
-          <input type="submit" value="Submit" />
-        </form>
-      )}
-    </>
+    <nav>
+      <Link to="/">Home</Link>
+      <Link to="/categories">Categories</Link>
+      <Link to="/signup">SignUp</Link>
+      <Link to="/cart">Cart</Link>
+      <Link to="/selldevice">SellDevice</Link>
+    </nav>
   );
 }
+
 
 export default NavBar;
