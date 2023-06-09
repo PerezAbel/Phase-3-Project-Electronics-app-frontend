@@ -1,0 +1,11 @@
+db.json
+    "Electronics": [
+      {  
+        "id":"8",
+        "Device": "Sumsung galaxy S23 ultra",
+        "Price": "199,995.00 ",
+        "Image": "https://fdn2.mobgsm.com/vv/pics/samsung/samsung-galaxy-s23-ultra-5g-2.jpg"
+      } 
+    
+    ]
+  }

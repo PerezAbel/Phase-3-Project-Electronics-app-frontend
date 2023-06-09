@@ -27,13 +27,18 @@ function App() {
           <Route path="/signup" element={<SignUp phones={Categories} />} /> 
           <Route path="/cart" element={<Cart phones={Categories} />} /> 
           <Route path="/selldevice" element={<SellDevice phones={Categories} />} />
-    
-        </Routes>
+        </Routes>  
         <SearchBar />
         <Card />
-        <Footer />
+        <Footer />  
+
       </div>
-    
+        
+
+        
+  
+
+
   );
 }  
 
