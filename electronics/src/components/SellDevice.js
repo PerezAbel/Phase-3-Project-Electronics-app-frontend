@@ -14,7 +14,7 @@ function SellDevice() {
       price: price
     };
 
-    fetch('http://localhost:9292/electronics', {
+    fetch('http://localhost:5000/electronics', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -39,42 +39,42 @@ function SellDevice() {
       <h1>Details</h1>
       <form className="container" onSubmit={handleSubmit}>
         <div className="mb-3">
-          <label htmlFor="image" className="form-label" style={{ fontWeight: "bold", color: "#333" }}>Image</label>
+          <label htmlFor="image" className="form-label" style={{ fontWeight: "bold", color: "black" }}>Image</label>
           <input
             id="image"
             type="text"
             className="form-control"
-            style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "#f1f1f1", border: "1px solid #ccc" }}
+            style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "orange", border: "1px solid black", color: "black" }}
             value={image}
             onChange={e => setImage(e.target.value)}
             required
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="device" className="form-label" style={{ fontWeight: "bold", color: "#333" }}>Device</label>
+          <label htmlFor="device" className="form-label" style={{ fontWeight: "bold", color: "black" }}>Device</label>
           <input
             id="device"
             type="text"
             className="form-control"
-            style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "#f1f1f1", border: "1px solid #ccc" }}
+            style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "orange", border: "1px solid black", color: "black" }}
             value={device}
             onChange={e => setDevice(e.target.value)}
             required
           />
         </div>
         <div className="mb-3">
-          <label htmlFor="price" className="form-label" style={{ fontWeight: "bold", color: "#333" }}>Price</label>
+          <label htmlFor="price" className="form-label" style={{ fontWeight: "bold", color: "black" }}>Price</label>
           <input
             id="price"
             type="text"
             className="form-control"
-            style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "#f1f1f1", border: "1px solid #ccc" }}
+            style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "orange", border: "1px solid black", color: "black" }}
             value={price}
             onChange={e => setPrice(e.target.value)}
             required
           />
         </div>
-        <button className="btn" style={{ display: "inline-block", padding: "10px 20px", backgroundColor: "orange", color: "white", border: "none", cursor: "pointer" }} type="submit">Submit</button>
+        <button className="btn" style={{ display: "inline-block", padding: "10px 20px", backgroundColor: "black", color: "orange", border: "none", cursor: "pointer" }} type="submit">Submit</button>
       </form>
     </>
   );

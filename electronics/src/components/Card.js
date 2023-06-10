@@ -16,7 +16,7 @@ function Card() {
   }, []);
 
   const removeFromCart = (id) => {
-    fetch(`http://localhost:9292/electronics/${id}`, {
+    fetch(`http://localhost:9292/electronics${id}`, {
       method: 'DELETE'
     })
       .then(response => response.json())

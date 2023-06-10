@@ -1,31 +1,32 @@
 .container {
-    max-width: 300px;
-    margin: 0 auto;
-  }
-  
-  .mb-3 {
-    margin-bottom: 1rem;
-  }
-  
-  .form-label {
-    font-weight: bold;
-    color: #333;
-  }
-  
-  .form-control {
-    width: 100%;
-    padding: 10px;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}

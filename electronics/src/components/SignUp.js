@@ -9,7 +9,7 @@ function SignIn() {
     <form className="container" >
   <div className="mb-3">
     <label htmlFor="name" className="form-label" style={{ fontWeight: "bold", color: "#333" }}>Name</label>
-    <input
+    <inputin
       id="date"
       type="text"
       className="form-control"

@@ -1,4 +1,4 @@
-db.json
+db.json http://localhost:9292/Electronics
     "Electronics": [
       {  
         "id":"8",
@@ -8,4 +8,94 @@ db.json
       } 
     
     ]
+
+  }  
+reactform 
+
+
+import React, { useEffect, useState } from 'react';
+import '../css/Card.css';
+
+function Card() {
+  const [electronics, setElectronics] = useState([]);
+
+  useEffect(() => {
+    fetch('http://localhost:9292/Electronics') 
+      .then(response => response.json())
+      .then(data => {
+        setElectronics(data);
+      })
+      .catch(error => {
+        console.error('Error:', error);
+      });
+  }, []);
+
+  if (!electronics) {
+    return <div>Loading...</div>;
   }
+
+  return (     
+    electronics.map((electronic) =>{  
+      return(       
+  
+   
+
+
+    <div className="card">
+      <img src={electronic.Image} alt="Card" className="card-image" />
+      <div className="card-content">
+        <h3 className="card-title">{electronic.Device}</h3>
+        <p className="card-description">{electronic.Price}</p>
+        <p className="card-description">Hot Point Appliances</p>
+        <button>Add to Cart</button>
+        <button>Remove</button>
+      </div> 
+    </div> 
+    
+      ) 
+      }
+
+
+
+    )
+  );
+}
+
+export default Card;  
+
+make the remove button work make the cards display side by side
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

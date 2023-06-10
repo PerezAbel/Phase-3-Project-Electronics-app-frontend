@@ -1,6 +1,16 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-function SearchBar() {
+function SearchBar({ data }) {
+  const [searchTerm, setSearchTerm] = useState('');
+  const [searchResults, setSearchResults] = useState([]);
+
+  const handleSearch = () => {
+    const results = data.filter(item =>
+      item.Device.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+    setSearchResults(results);
+  };
+
   return (
     <div>
       <input
@@ -13,6 +23,8 @@ function SearchBar() {
           borderRadius: '4px',
           marginRight: '8px',
         }}
+        value={searchTerm}
+        onChange={e => setSearchTerm(e.target.value)}
       />
       <button
         style={{
@@ -23,9 +35,21 @@ function SearchBar() {
           borderRadius: '4px',
           cursor: 'pointer',
         }}
+        onClick={handleSearch}
       >
         Search
       </button>
+
+      {searchResults.length > 0 && (
+        <div>
+          <h2>Search Results:</h2>
+          <ul>
+            {searchResults.map(item => (
+              <li key={item.id}>{item.Device}</li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }

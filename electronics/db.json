@@ -1,17 +1,31 @@
 {
-  "electronics": [
+  "electronics": [    
+    {
+      "id": "1",
+      "device": "Laptop",
+      "price": "27000",
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFjfGVufDB8fDB8fHww&w=1000&q=80"
+    },  
+    {
+      "id": "2",
+      "device": "Smartphone",
+      "price": "27000",
+      "image": "https://cdn.mos.cms.futurecdn.net/QWRX5D22ak5rgDhWPZ9o7Q.jpg"
+    },  
     {
       "id": "3",
       "device": "Fridge",
-      "price": "500000",
+      "price": "27000",
       "image": "https://www.techadvisor.com/wp-content/uploads/2023/02/best-fridges_23.jpg?quality=50&strip=all"
     },
+
     {
       "id": "4",
-      "device": "Washing Machine",
-      "price": "75000",
+      "device": "Washing machine",
+      "price": "27000",
       "image": "https://images.unsplash.com/photo-1604335399105-a0c585fd81a1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2FzaGluZyUyMG1hY2hpbmV8ZW58MHx8MHx8fDA%3D&w=1000&q=80"
     },
+    
     {
       "id": "5",
       "device": "Headphones",
@@ -35,12 +49,6 @@
       "device": "Sumsung galaxy S23 ultra",
       "price": "199,995.00 ",
       "image": "https://fdn2.mobgsm.com/vv/pics/samsung/samsung-galaxy-s23-ultra-5g-2.jpg"
-    },
-    {
-      "image": "ddafdgsdg",
-      "device": "sfsffsafs",
-      "price": "asafasfs",
-      "id": "hHo-t27"
     }
   ]
 }
