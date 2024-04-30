@@ -5,7 +5,7 @@ function Card() {
   const [electronics, setElectronics] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:9292/electronics')
+    fetch('http://localhost:5000/electronics')
       .then(response => response.json())
       .then(data => {
         setElectronics(data);
@@ -16,7 +16,7 @@ function Card() {
   }, []);
 
   const removeFromCart = (id) => {
-    fetch(`http://localhost:9292/electronics${id}`, {
+    fetch(`http://localhost:3000/electronics${id}`, {
       method: 'DELETE'
     })
       .then(response => response.json())

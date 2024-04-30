@@ -4,6 +4,9 @@
   
 }  
 
+.Navbar {
+  margin-top: 20px; /* Adjust the margin-top value to increase or decrease the space */
+}
 
 .App-logo {
   height: 40vmin;
