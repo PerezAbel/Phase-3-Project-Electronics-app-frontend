@@ -1,24 +1,22 @@
-a{     
-    text-decoration: none;        
-    color:black;   
-    padding: 10px 20px; /* adjust padding as needed */
-    width: 100%; /* occupy the full width of the viewport */
-    top: 0; /* position it at the top */
-    font-size: small;
-    font-weight: bolder;  
+li{
+    list-style-type: none;  
+    margin: 0;  
+    padding:0;  
+    width: 100px;  
+    float:left;
     
+}   
+
+a {
+    display: contents;  
+    color:orange; 
+    padding: 8px 16px ; 
+    text-decoration: none;   
+    float: right;  
     
-}    
+}  
 
-.container {
-    max-width: 1200px; /* adjust container width as needed */
-    margin: 0 auto; /* center the container horizontally */
-    padding: 0 20px; /* adjust container padding as needed */
-  }
-  
-
-a:hover{ 
-      color: orange !important;
-}      
-
+a:hover {
+    color: gray;
+}
 

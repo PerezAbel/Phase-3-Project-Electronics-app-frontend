@@ -1,54 +1,36 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faFacebook, faTwitter, faLinkedin, faInstagram } from '@fortawesome/free-brands-svg-icons';
+ 
+
 import '../css/Footer.css';
 
 function Footer() {
-  return (
-    <div className="main-footer">
-      <div className="container">
-        <div className="row">
-          {/* Column 1 */}
-          <div className="col">
-            <h4>Electronics</h4>
-            <ul className="list-unstyled">
-              <li>356-230-670</li>
-              <li>Kenya, Nairobi</li>
-              <li>South C, Bellaview</li>
-            </ul>
-          </div> 1
-
-          {/* Column 2 */}
-          <div className="col">
-            <h4>Stuff</h4>
-            <ul className="list-unstyled">
-              <li>Dark Memes</li>
-              <li>Other Stuff</li>
-              <li>Good Stuff</li>
-            </ul>
-          </div>
-
-          {/* Column 3 */}
-          <div className="col">
-            <h4>Stuff</h4>
-            <ul className="list-unstyled">
-              <li>Dark Memes</li>
-              <li>Other Stuff</li>
-              <li>Good Stuff</li>
-            </ul>
-          </div>
-        </div>
-
-        <hr />
-
-        <div className="row">
-          <div className="col-sm">
-            <p>
-              &copy;{new Date().getFullYear()} ELECTRONICS INC | All rights reserved | Terms of Service | Privacy
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+    return (
+        <footer className="footer">
+            <div className="column">
+                <h3>About Us</h3>
+                <p>We are a leading tech company specializing in providing innovative solutions for everyday needs.</p>
+            </div>
+            <div className="column">
+                <h3>Social Media</h3>
+                <ul className="social-media-list">
+                    <li><a href="https://facebook.com"><FontAwesomeIcon icon={faFacebook} /></a></li>
+                    <li><a href="https://twitter.com"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                    <li><a href="https://linkedin.com"><FontAwesomeIcon icon={faLinkedin} /></a></li>
+                    <li><a href="https://instagram.com"><FontAwesomeIcon icon={faInstagram} /></a></li>
+                </ul>
+            </div>
+            <div className="column">
+                <h3>Contact Us</h3>
+                <p>Email: info@techcompany.com</p>
+                <p>Phone: +1234567890</p>
+            </div>
+           
+                
+           
+        </footer>
+    );
 }
 
 export default Footer;

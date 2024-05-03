@@ -1,65 +1,44 @@
-import React from 'react';   
+import React, { useState } from 'react';
 
+function SellDevice() {
+  const [image, setImage] = useState('');
+  const [device, setDevice] = useState('');
+  const [price, setPrice] = useState('');
 
-function SignIn() {
-  return (  
-    <>  
-  
-    <h1> SignUp</h1>
-    <form className="container" >
-  <div className="mb-3">
-    <label htmlFor="name" className="form-label" style={{ fontWeight: "bold", color: "#333" }}>Name</label>
-    <inputin
-      id="date"
-      type="text"
-      className="form-control"
-      style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "#f1f1f1", border: "1px solid #ccc" }}
-      required
-    />
-  </div>
-  <div className="mb-3">
-    <label htmlFor="email" className="form-label" style={{ fontWeight: "bold", color: "#333" }}>Email</label>
-    <input
-      id="email"
-      type="text"
-      className="form-control"
-      style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "#f1f1f1", border: "1px solid #ccc" }}
-      required
-    />
-  </div>
-  <div className="mb-3">
-    <label htmlFor="password" className="form-label" style={{ fontWeight: "bold", color: "#333" }}>Password</label>
-    <input
-      id="password"
-      type="text"
-      className="form-control"
-      style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "#f1f1f1", border: "1px solid #ccc" }}
-      required
-    />
-  </div>
-  <div className="mb-3">
-    <label htmlFor="amount" className="form-label" style={{ fontWeight: "bold", color: "#333" }}>Amount</label>
-    <input
-      id="amount"
-      type="text"
-      className="form-control"
-      style={{ width: "100%", padding: "10px", fontFamily: "Arial, sans-serif", fontSize: "14px", backgroundColor: "#f1f1f1", border: "1px solid #ccc" }}
-      required
-    />
-  </div>
-  <button className="btn" style={{ display: "inline-block", padding: "10px 20px", backgroundColor: "orange", color: "white", border: "none", cursor: "pointer" }}>Submit</button>
-</form>
+  const handleSubmit = (e) => {
+    e.preventDefault();
 
+    const data = {
+      image: image,
+      device: device,
+      price: price
+    };
 
+    fetch('http://localhost:5000/electronics', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data)
+    })
+      .then(response => response.json())
+      .then(result => {
+        console.log('Data saved successfully:', result);
+        // Reset form fields
+        setImage('');
+        setDevice('');
+        setPrice('');
+      })
+      .catch(error => {
+        console.error('Error saving data:', error);
+      });
+  };
 
-
-
-
-
-
-    </>
+  return (
+    <>
      
+    </>
   );
 }
 
-export default SignIn;
+export default SellDevice;

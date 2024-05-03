@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
 import '../css/Card.css';
 
 function Card() {
@@ -43,8 +45,8 @@ function Card() {
             <h3 className="card-title">{electronic.device}</h3>
             <p className="card-description">{electronic.price}</p>
             <p className="card-description">Hot Point Appliances</p>
-            <button>Add to Cart</button>
-            <button onClick={() => removeFromCart(electronic.id)}>Remove</button>
+            <button><FontAwesomeIcon icon={faCartPlus} /> Add to Cart </button>
+            <button onClick={() => removeFromCart(electronic.id)}>View Details</button>
           </div>
         </div>
       ))}

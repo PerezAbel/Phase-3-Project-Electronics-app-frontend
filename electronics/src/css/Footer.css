@@ -1,19 +1,50 @@
-.main-footer{
-    color:black;
-    background-color: orange;  
-    padding-top: 0.scm; 
-    position: relative; 
-    bottom:0;
-    width: 100%;  
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
 
-} 
+.column {
+  flex: 1;
+  margin: 0 10px;
+}
 
-ul {
-    list-style: none;
-  }     
+.column h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
 
+.social-media-list {
+  list-style-type: none;
+  padding: 0;
+}
 
-  
+.social-media-list li {
+  margin-bottom: 5px;
+}
 
+.social-media-list a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+}
 
+.social-media-list a:hover {
+  text-decoration: underline;
+}
 
+.social-media-list a:hover svg {
+  color: #00aced; /* Change color on hover */
+}
+
+.payment-methods {
+  display: flex;
+}
+
+.payment-methods img {
+  width: 50px; /* Adjust size as needed */
+  margin-right: 10px;
+}

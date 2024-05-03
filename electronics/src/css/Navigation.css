@@ -1,26 +1,29 @@
-li{
-    list-style-type: none;  
-    margin: 0;  
-    padding:0;  
-    width: 100px;  
-    text-align: center; 
-    float:left; 
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden;
+    position: relative; /* Set position to relative */
 }
-    
-nav {
-    background-color: #333; /* Background color of the navbar */
-    padding: 10px 20px; /* Padding around the links */
-    padding-top: 20px;  
-    padding-bottom: 40px;
-  }
-  
-  nav a {
-    color: #fff; /* Text color of the links */
-    text-decoration: none; /* Remove underline from the links */
-    margin-right: 10px; /* Spacing between the links */
-  }
-  
-  nav a:hover {
-    color: #ccc; /* Text color of the links on hover */
-  }
-  
+
+.nav-item {
+    float: left;
+}
+
+.nav-item:last-child {
+    position: absolute;
+    right: 0;
+}
+
+.nav-item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.nav-item a:hover {
+    background-color: #111;
+}

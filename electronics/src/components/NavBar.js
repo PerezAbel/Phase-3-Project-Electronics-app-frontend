@@ -1,24 +1,19 @@
-import React from 'react';   
-import { Link } from 'react-router-dom';  
-import '../css/NavBar.css';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 function NavBar() {
   return (
-    <nav>
-      <Link to="/">Home</Link>
-      <Link to="/categories">Shop All</Link>
-      <Link to="/signup">Computers & Laptops</Link>
-      <Link to="/cart">Tablets</Link>
-      <Link to="/selldevice">Drones & Cameras</Link> 
-      <Link to="/categories">Audio</Link>
-      <Link to="/signup">Mobile</Link>
-      <Link to="/cart">TV & Home Cinema</Link>
-      <Link to="/selldevice">Wearable Tech</Link>
-      <Link to="/selldevice">Sale</Link>
-      
+    <nav style={{ display: 'flex', justifyContent: 'flex-start', backgroundColor: '#333', padding: '10px 0', marginBottom: '20px' }}>
+      <Link to="/" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Shop All</Link>
+      <Link to="/categories" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Computers & Laptops</Link>
+      <Link to="/signup" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Tablets</Link>
+      <Link to="/cart" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Drones & Cameras</Link>
+      <Link to="/selldevice" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Audio</Link> 
+      <Link to="/categories" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Mobile</Link>
+      <Link to="/signup" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>TV & Home Cinema</Link>
+      <Link to="/cart" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Wearable Tech</Link>
     </nav>
   );
 }
-
 
 export default NavBar;
