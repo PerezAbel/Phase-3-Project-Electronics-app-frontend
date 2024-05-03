@@ -15,11 +15,9 @@ import { Routes } from 'react-router-dom';
 import './App.css'; 
 import { width } from '@fortawesome/free-solid-svg-icons/fa0';
 import Logo from './components/Logo';  
-import LogIn from './components/LogIn';  
-import Sign from './components/Sign'
-import Footer from './components/Footer'; 
-
-
+import Footer from './components/Footer';  
+import ImageGrid from './components/ImageGrid'; 
+import CircleCards from './components/CircleCards'
 
 function App() {   
 
@@ -37,7 +35,7 @@ function App() {
         <SearchBar/>  
         <Navigation /> 
         <ImageSlider images={images} />
-        <NavBar />  
+        <NavBar />       
         <Routes>
           <Route exact path="/" component={Home} />
           <Route path="/categories" element={<Categories phones={Categories} />} />   
@@ -45,8 +43,10 @@ function App() {
           <Route path="/signup" element={<SignUp phones={Categories} />} /> 
           <Route path="/cart" element={<Cart phones={Categories} />} /> 
           <Route path="/selldevice" element={<SellDevice phones={Categories} />} />
-        </Routes>      
-        <Card /> 
+        </Routes>    
+        <CircleCards/>   
+        <ImageGrid/>    
+       
         <Footer />
     
 

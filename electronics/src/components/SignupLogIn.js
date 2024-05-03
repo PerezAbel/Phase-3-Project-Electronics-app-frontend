@@ -1,19 +1,21 @@
-import React from 'react';
+import React from 'react';  
+import '../css/FlipCard.css'
 
-function SignUpButton({ onClick }) {
+function FlipCard() {
   return (
-    <button onClick={onClick} style={{ padding: '8px 16px', backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer', marginRight: '10px' }}>
-      Sign Up
-    </button>
+    <div className="flip-card">
+      <div className="flip-card-inner">
+        <div className="flip-card-front">
+          <img src="https://www.stuff.tv/wp-content/uploads/sites/2/2021/08/phones_under_20_0.jpg" alt="Avatar" style={{width: "300px", height: "300px"}} />
+        </div>
+        <div className="flip-card-back">
+          <h1>John Doe</h1>
+          <p>Architect & Engineer</p>
+          <p>We love that guy</p>
+        </div>   
+      </div>   
+    </div>
   );
 }
 
-function LogInButton({ onClick }) {
-  return (
-    <button onClick={onClick} style={{ padding: '8px 16px', backgroundColor: '#007bff', color: '#fff', border: 'none', borderRadius: '4px', cursor: 'pointer' }}>
-      Log In
-    </button>
-  );
-}
-
-export { SignUpButton, LogInButton };
+export default FlipCard;

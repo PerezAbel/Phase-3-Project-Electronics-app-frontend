@@ -1,0 +1,33 @@
+.circle-card {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%; /* Makes the element circular */
+    overflow: hidden; /* Ensure image does not overflow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+/* Style for text inside circle cards */
+.circle-card p {
+    text-align: center;
+    font-size: 14px;
+    color: #333; /* Change text color as desired */
+}
+
+/* Style for images inside circle cards */
+.circle-card img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%; /* Make the image circular */
+}
+
+/* Grid Layout */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 columns */
+    gap: 20px; /* Gap between cards */
+    justify-content: center;
+}
