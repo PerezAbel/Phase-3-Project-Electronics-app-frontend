@@ -3,13 +3,5 @@
     align-items: flex-end;
   }  
 
-  li{
-    list-style-type: none;  
-    margin: 0;  
-    padding:0;  
-    width: 100px;  
-    text-align: center; 
-    float:left; 
-}
-    
+  
   

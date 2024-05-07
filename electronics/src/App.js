@@ -1,5 +1,5 @@
 import NavBar from './components/NavBar';   
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom'; 
+import { BrowserRouter as Router, Route, Link , Switch} from 'react-router-dom'; 
 import ImageSlider from './components/ImageSlider';  
 import SearchBar from './components/SearchBar';  
 import Navigation from './components/Navigation';
@@ -15,10 +15,16 @@ import { Routes } from 'react-router-dom';
 import './App.css'; 
 import { width } from '@fortawesome/free-solid-svg-icons/fa0';
 import Logo from './components/Logo';  
-import Footer from './components/Footer';  
+import Footer from './components/Footer';   
+import SpecialOffers from './components/SpecialOffers';
 import ImageGrid from './components/ImageGrid'; 
 import CircleCards from './components/CircleCards'
-
+import DisplayCard from './components/DisplayCard';
+import Newsletter from './components/Newsletter';   
+import LogIn from "./components/LogIn" ;  
+import Contact from './components/Contact' ;   
+import Services from './components/Services' ; 
+import About from './components/About'
 function App() {   
 
   const images = [
@@ -33,7 +39,17 @@ function App() {
       <div className="App">    
         <Logo />   
         <SearchBar/>  
-        <Navigation /> 
+        <Navigation />    
+        <Routes>  
+        <Route path="/" exact component={Home} />
+            <Route path="/about" component={About} />
+            <Route path="/services" component={Services} />
+            <Route path="/contact" component={Contact} />
+            <Route path="/cart" component={Cart} />
+            <Route path="/signup" component={SignUp} />
+            <Route path="/login" component={LogIn} />
+        </Routes>
+         
         <ImageSlider images={images} />
         <NavBar />       
         <Routes>
@@ -44,9 +60,11 @@ function App() {
           <Route path="/cart" element={<Cart phones={Categories} />} /> 
           <Route path="/selldevice" element={<SellDevice phones={Categories} />} />
         </Routes>    
-        <CircleCards/>   
-        <ImageGrid/>    
-       
+        <DisplayCard/>    
+        <CircleCards/>      
+        <ImageGrid/>        
+        <SpecialOffers/>  
+        <Newsletter />
         <Footer />
     
 

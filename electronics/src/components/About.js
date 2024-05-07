@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Categories() {
+function About() {
   return (
    <>  
    <h1>Perez</h1>
@@ -9,4 +9,4 @@ function Categories() {
   );
 }
 
-export default Categories;
+export default About;

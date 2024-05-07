@@ -1,0 +1,42 @@
+.newsletter-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter-container h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .newsletter-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .newsletter-container label {
+    margin-bottom: 10px;
+  }
+  
+  .newsletter-container input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  
+  .newsletter-container button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .newsletter-container button:hover {
+    background-color: #0056b3;
+  }
+  
