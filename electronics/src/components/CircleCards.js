@@ -1,3 +1,4 @@
+/* Cirlcle Cards Component */
 import React from 'react';  
 import '../css/Circle.css';
 
@@ -7,7 +8,6 @@ function CircleCardContainer() {
     <h1>Shop by Category</h1>
     
     <div className="card-container">
-      {/* Circle Cards with Images */}
       <div className="circle-card">
         <img src="https://m.media-amazon.com/images/I/41tp0JPPlmL.jpg" alt="Image 1" />
       </div>

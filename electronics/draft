@@ -1,0 +1,79 @@
+import React, { useState, useEffect } from "react";
+
+
+function ShopAll({shop}) {
+  
+  console.log("Tx", Shop)
+
+
+
+  return (
+    <div className="card-container">
+      {shop.map((shop) => (
+        <div className="card" key={shop.id}>
+          <img src={shop.Cover} width="250px" height="300px" className="card-img-top"  />
+          <div className="card-body">
+            <h5 className="card-title">{shop.Title}</h5>
+            <h5>Price: {shop.Price}</h5>
+            <a href="#" className="btn btn-primary">
+              Order <i className="bi bi-basket"></i>
+            </a>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+export default ShopAll;
+
+
+[eslint] 
+src/components/ShopAll.js
+  Line 6:21:  'Shop' is not defined  no-undef
+
+Search for the keywords to learn more about each error.
+
+
+{
+    "Shop":    [
+      {
+        "id": "1",
+        "Title": "HP Spectra", 
+        "Price": "Ksh200000", 
+        "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIv-5vrYTN8PDW3lPebRVaS6yWGuYQv23xgw&s"
+      },  
+      {
+        "id": "2",
+        "Title": "Iphone 15 Pro Max" , 
+        "Price": "Ksh200000", 
+        "Cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K16g9jH_U-8xJexpm8k8xXaczSh_gwnQkg&s"  
+      }, 
+      {
+        "id": "3" ,
+        "Title": "Samsung Galaxy S24 Ultra" , 
+        "Price": "Ksh281900", 
+        "Cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1tEXjvcgQsAqeJm305NwEeMePNNdhkw7SQg&s"  
+      }, 
+      {
+        "id": "4" ,
+        "Title": "AirPods pro(2nd generation)" , 
+        "Price": "Ksh155000", 
+        "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn-dWrMtu0JeTKq09KochYNXs-9oXnKO7nGQ&s"  
+      }, 
+      {
+        "id": "5",
+        "Title": "Apple Watch Ultra 2", 
+        "Price":"Ksh115000", 
+        "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTChnntm1gyNFw4mpQHb8Rzgvtu259isYK1fw&s"  
+      }
+  
+    ]
+  }   
+
+
+  [eslint] 
+src/components/ShopAll.js
+  Line 6:21:  'Shop' is not defined  no-undef
+
+Search for the keywords to learn more about each error.

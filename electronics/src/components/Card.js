@@ -1,3 +1,5 @@
+/* The Card Component for the fetched data
+
 import React, { useEffect, useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCartPlus } from '@fortawesome/free-solid-svg-icons';
@@ -54,4 +56,4 @@ function Card() {
   );
 }
 
-export default Card;
+export default Card;   */ 

@@ -1,0 +1,66 @@
+{
+    "Computer":    [
+      {
+        "id": "1",
+        "Title": "HP Spectra", 
+        "Price": "Ksh200000", 
+        "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIv-5vrYTN8PDW3lPebRVaS6yWGuYQv23xgw&s"
+      },  
+      {
+        "id": "2",
+        "Title": "MSI Creator Z17 HX Studio" , 
+        "Price": "Ksh200000", 
+        "Cover":"https://www.techarena.co.ke/wp-content/uploads/2023/01/LG-Ultraslim-Gram-Laptop-Lineup-1024x576.jpg"  
+      }, 
+      {
+        "id": "3" ,
+        "Title": "Asus ROG Flow X13" , 
+        "Price": "Ksh281900", 
+        "Cover":"https://www.notebookcheck.net/uploads/tx_nbc2/Asus_ROG_Flow_X13_GV302XV__1_.JPG"  
+      }, 
+      {
+        "id": "4" ,
+        "Title": "Acer Swift Go" , 
+        "Price": "Ksh155000", 
+        "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5rjro5-TiG9XqGqTRRAwyg2U5dCkbUVFvZQ&s"  
+      }, 
+      {
+        "id": "5",
+        "Title": "MSI Modern 14", 
+        "Price":"Ksh115000", 
+        "Cover": "https://m.media-amazon.com/images/I/41jtFphuFJL._AC_UF894,1000_QL80_.jpg"  
+      },  
+      {
+        "id": "6" ,
+        "Title": "HP Envy Move" , 
+        "Price": "Ksh105,598", 
+        "Cover": "https://i.pcmag.com/imagery/reviews/05YlP2sO19U1zzXLVBIxU0H-1.fit_lim.size_1050x591.v1697128910.jpg"  
+      },    
+      {
+        "id": "7" ,
+        "Title": "Lenovo Legion Tower 7i (Gen 8)" , 
+        "Price": "Ksh145,000", 
+        "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPvEWaSUZ1KjNjbKP_sx-upB5Zlit-jfveew&s"  
+      },   
+      {
+        "id": "8" ,
+        "Title": "Acer Aspire XC-830-UA91" , 
+        "Price": "Ksh148,000", 
+        "Cover": "https://m.media-amazon.com/images/I/51wpWeXEJ7L._AC_UF894,1000_QL80_.jpg"  
+      },   
+      {
+        "id": "9" ,
+        "Title": "HP 27” All-in-One Desktop PC" , 
+        "Price": "Ksh65,000", 
+        "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdefQn9T2PbI0MhMg9KO4nhSm8JnOOwDG0vQ&s"  
+      },   
+     
+      {
+        "id": "10",
+        "Title": "Dell Inspiron 24 All-in-One", 
+        "Price":"Ksh128,000", 
+        "Cover": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/desktops/inspiron-desktops/24-5420/media-gallery/gray/desktop-aio-inspiron-24-5420-gray-gallery-2.psd?fmt=pjpg&pscan=auto&scl=1&wid=4341&hei=3199&qlt=100,1&resMode=sharp2&size=4341,3199&chrss=full&imwidth=5000"  
+      }
+  
+    ]
+  }

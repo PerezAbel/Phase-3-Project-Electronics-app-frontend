@@ -1,0 +1,46 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px; /* Adjust the gap between the cards as needed */
+    padding: 20px; /* Optional: add padding to the container */
+  }
+  
+  .card {
+    background-color: #fff; /* Adjust the background color as needed */
+    border: 1px solid #ddd; /* Optional: add border to the cards */
+    border-radius: 8px; /* Optional: add border radius to the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add box shadow to the cards */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    transition: transform 0.2s; /* Optional: add transition for hover effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Optional: add hover effect */
+  }
+  
+  .card-img-top {
+    object-fit: cover;
+  }
+  
+  .card-body {
+    padding: 16px; /* Adjust padding inside the card body as needed */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Adjust font size of the card title as needed */
+    margin-bottom: 8px; /* Optional: add margin below the title */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* Adjust button color as needed */
+    border: none; /* Remove border from button */
+    padding: 10px 20px; /* Adjust padding inside the button */
+    color: #fff; /* Adjust text color of the button */
+    border-radius: 4px; /* Adjust border radius of the button */
+    text-decoration: none; /* Remove underline from the link */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Adjust button hover color as needed */
+  }
+  
