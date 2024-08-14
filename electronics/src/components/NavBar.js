@@ -11,7 +11,7 @@ function NavBar() {
       <Link to="/audio" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Audio</Link> 
       <Link to="/mobile" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Mobile</Link>
       <Link to="/tvhome" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>TV & Home Cinema</Link>
-      <Link to="/wearbletech" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Wearable Tech</Link>
+      <Link to="/wearabletech" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Wearable Tech</Link>
     </nav>
   );
 }

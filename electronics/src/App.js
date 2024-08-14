@@ -13,7 +13,7 @@ import ImageSlider from './components/ImageSlider';
 import ImageDisplay from './components/ImageDisplay';
 import Card from './components/Card';
 import SellDevice from './components/SellDevice';
-
+import { CartProvider } from './components/CartContext'  // Import the CartProvider
 
 /*imports from the Navigation component */
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
@@ -37,7 +37,8 @@ import DronesCameras from './components/DronesCameras';
 import Audio from './components/Audio';
 import Mobile from './components/Mobile';
 import TvHome from './components/TvHome';
-import WearableTech from './components/WearableTech';
+import WearableTech from './components/WearableTech'
+
 
 
 <Routes>
@@ -130,19 +131,20 @@ function App() {
   }, []);    
 
 
-  const [watch, setWatch] = useState([]);
+  const [wear, setWear] = useState([]);
 
   useEffect(() => {
     console.log('Fetching data...');
-    fetch('http://localhost:4007/Watch')
+    fetch('http://localhost:4007/Wear')
       .then((response) => response.json())
-      .then((data) => setWatch(data));
+      .then((data) => setWear(data));
   }, []); 
 
  {/**/}
   return (
 
-    <div className="App">
+    <div className="App">  
+      <CartProvider>
       <Logo />
       <SearchBar />
       <Navigation />
@@ -165,17 +167,24 @@ function App() {
         <Route path="/audio" element={<Audio audio={audio} />} />
         <Route path="/mobile" element={<Mobile mobile={mobile} />} />
         <Route path="/tvhome" element={<TvHome television={television} />} />
-        <Route path="/wearabletech" element={<WearableTech watch={watch} />} />
-      </Routes>
+        <Route path="/wearabletech" element={<WearableTech wear={wear} />} />   
+       
+
+      </Routes>  
+      
 
       <DisplayCard />
-      <CircleCards />
+      <CircleCards /> 
+      
       <ImageGrid />
       <SpecialOffers />
-      <Newsletter />
-      <Footer />
+      <Newsletter />  
+      
+      <Footer />    
+      
 
 
+      </CartProvider>
 
     </div>
 

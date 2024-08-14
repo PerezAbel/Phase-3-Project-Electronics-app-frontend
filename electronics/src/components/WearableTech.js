@@ -1,39 +1,15 @@
-import React, { useState } from 'react';
-
-
-function WearableTech() {
-  const [message, setMessage] = useState("Hello, World!");
-
-  const handleClick = () => {
-    setMessage("You clicked the button!");
-  };
-
-  return (
-    <div className="App">
-      <header className="App-header">
-        <h1>fejfbhwfewjkgfberjg</h1>
-        <button onClick={handleClick}>Click Me</button>
-      </header>
-    </div>
-  );
-}
-
-export default WearableTech;
-
-
-/*
 import React from 'react';
   
 
 
-function WearableTech({ watch = [] }) {
-  if (!watch.length) {
+function WearableTech({ wear = [] }) {
+  if (!wear.length) {
     return <div>Loading...</div>;
   }
 
   return (
     <div className="card-container">
-      {watch.map((item) => (
+      {wear.map((item) => (
         <div className="card" key={item.id}>
           <img src={item.Cover} width="250px" height="300px" className="card-img-top" alt={item.Title} />
           <div className="card-body">
@@ -50,4 +26,3 @@ function WearableTech({ watch = [] }) {
 }
 
 export default WearableTech;
-*/
