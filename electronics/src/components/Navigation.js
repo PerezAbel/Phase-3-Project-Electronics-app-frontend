@@ -6,9 +6,12 @@ import '../css/Navigation.css';
 
 function Navigation() {
     return (
-      <nav style={{ display: 'flex', backgroundColor: '#333', padding: '10px 0', marginBottom: '20px' }}>
-        <div style={{ display: 'flex', flex: 1 }}>     
-        <Link to="/" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Home</Link>
+      <nav style={{ display: 'flex', alignItems: 'center', backgroundColor: '#333', padding: '10px 0', marginBottom: '20px' }}>
+        <div style={{ flex: 1, display: 'flex', alignItems: 'center' }}>
+          <div style={{ color: '#fff', fontSize: '24px', fontWeight: 'bold', marginRight: '20px' }}>
+            TECH X
+          </div>
+          <Link to="/" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Home</Link>
           <Link to="/about" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>About</Link>
           <Link to="/contact" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Contact</Link>
           <Link to="/cart" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>

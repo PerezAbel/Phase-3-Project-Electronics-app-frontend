@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import { FaSearch } from 'react-icons/fa'; // Import search icon
 
-function SearchBar({ data }) {
+function SearchBar({ data, onSearch }) {
   const [searchTerm, setSearchTerm] = useState('');
-  const [searchResults, setSearchResults] = useState([]);
-
-  const handleSearch = () => {
-    const results = data.filter(item =>
-      item.Device.toLowerCase().includes(searchTerm.toLowerCase())
-    );
-    setSearchResults(results);
+  
+  // Handle search term input change
+  const handleChange = (e) => {
+    setSearchTerm(e.target.value);
+    // Call the onSearch function passed from parent component with the new searchTerm
+    onSearch(e.target.value);
   };
 
   return (
@@ -23,13 +22,12 @@ function SearchBar({ data }) {
           border: '1px solid #ccc',
           borderRadius: '4px',
           marginRight: '10px', // Adjusted margin-right   
-          marginLeft: '2opx',
-          marginTop: '10px'  , 
+          marginLeft: '10px',
+          marginTop: '10px', 
           marginBottom: '10px'
-
         }}
         value={searchTerm}
-        onChange={e => setSearchTerm(e.target.value)}
+        onChange={handleChange}
       />
       <button
         style={{
@@ -38,27 +36,14 @@ function SearchBar({ data }) {
           color: '#fff',
           border: 'none',
           borderRadius: '4px',  
-          marginRight: '50px',
           cursor: 'pointer',
           display: 'flex',
           alignItems: 'center',
         }}
-        onClick={handleSearch}
+        onClick={() => onSearch(searchTerm)} // Ensure onSearch is called with current searchTerm
       >
-        <FaSearch style={{ marginRight: '5px', marginBottom: '5px', marginTop: '5px'}} />
-      
+        <FaSearch style={{ marginRight: '5px' }} />
       </button>
-
-      {searchResults.length > 0 && (
-        <div>
-          <h2>Search Results:</h2>
-          <ul>
-            {searchResults.map(item => (
-              <li key={item.id}>{item.Device}</li>
-            ))}
-          </ul>
-        </div>
-      )}
     </div>
   );
 }

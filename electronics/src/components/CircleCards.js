@@ -1,8 +1,11 @@
 /* Cirlcle Cards Component */
-import React from 'react';  
+import React from 'react';   
+import { useNavigate } from 'react-router-dom'; // Import useNavigate
 import '../css/Circle.css';
 
-function CircleCardContainer() {
+
+function CircleCardContainer() {  
+  const navigate = useNavigate(); // Initialize navigate
   return (   
     <>  
     <h1>Shop by Category</h1>
@@ -12,9 +15,13 @@ function CircleCardContainer() {
         <img src="https://m.media-amazon.com/images/I/41tp0JPPlmL.jpg" alt="Image 1" />
       </div>
 
-      <div className="circle-card">
-        <img src="https://gadgetclick.ru/wa-data/public/shop/products/16/40/4016/images/23358/23358.970.jpg" alt="Image 2" />
-      </div>
+      <div 
+          className="circle-card" 
+          onClick={() => navigate('/mobile')} // Navigate to Mobile component when clicked
+          style={{ cursor: 'pointer' }} // Optional: Change cursor to pointer on hover
+        >
+          <img src="https://gadgetclick.ru/wa-data/public/shop/products/16/40/4016/images/23358/23358.970.jpg" alt="Image 2" />
+        </div>
 
       <div className="circle-card">
         <img src="https://productimages.hepsiburada.net/s/72/375-375/110000013440154.jpg" alt="Image 3" />

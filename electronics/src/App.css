@@ -1,12 +1,14 @@
 .App {
-  text-align: center;        
-  background-color:whitesmoke; 
-  
-  
-}  
+  text-align: center;
+  background-color: whitesmoke;
+}
 
-.Navbar {
-  margin-top: 20px; /* Adjust the margin-top value to increase or decrease the space */
+.logo {
+  margin-bottom: 100px; /* Adjust this value to create space between the logo and the NavBar */
+}
+
+.Navigation {
+  margin-top: 100px; /* Ensure there's no conflict or negative margin affecting layout */
 }
 
 .App-logo {

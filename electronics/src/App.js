@@ -1,8 +1,7 @@
 /*App Component imports */
 import './App.css';
-import React, { useEffect, useState } from 'react';
-import Logo from './components/Logo';
-import SearchBar from './components/SearchBar';
+import React, { useEffect, useState } from 'react'; 
+/*import SearchBar from './components/SearchBar';*/
 import Footer from './components/Footer';
 import SpecialOffers from './components/SpecialOffers';
 import ImageGrid from './components/ImageGrid';
@@ -13,7 +12,7 @@ import ImageSlider from './components/ImageSlider';
 import ImageDisplay from './components/ImageDisplay';
 import Card from './components/Card';
 import SellDevice from './components/SellDevice';
-import { CartProvider } from './components/CartContext'  // Import the CartProvider
+import { CartProvider } from './components/CartContext'  // Import the CartProvider         
 
 /*imports from the Navigation component */
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
@@ -145,8 +144,8 @@ function App() {
 
     <div className="App">  
       <CartProvider>
-      <Logo />
-      <SearchBar />
+
+     {/* <SearchBar />*/}
       <Navigation />
       <Routes>
         <Route exact path="/" component={Home} />
@@ -164,7 +163,7 @@ function App() {
         <Route path="/computersLaptops" element={<ComputersLaptops computer={computer} />} />
         <Route path="tablets/" element={<Tablets tablets={tablets} />} />
         <Route path="/dronescameras" element={<DronesCameras drones={drones} />} />
-        <Route path="/audio" element={<Audio audio={audio} />} />
+        <Route path="/audio" element={<Audio audio={audio} />} /> 
         <Route path="/mobile" element={<Mobile mobile={mobile} />} />
         <Route path="/tvhome" element={<TvHome television={television} />} />
         <Route path="/wearabletech" element={<WearableTech wear={wear} />} />   
