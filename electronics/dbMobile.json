@@ -3,62 +3,62 @@
       {
         "id": "1",
         "Title": "Iphone 15 Pro Max", 
-        "Price": "Ksh233,999", 
+        "Price": "233,999", 
         "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K16g9jH_U-8xJexpm8k8xXaczSh_gwnQkg&s"
       },  
       {
         "id": "2",
         "Title": "Xiamo 14 Ultra" , 
-        "Price": "Ksh175,000", 
+        "Price": "175,000", 
         "Cover":"https://cellularkenya.co.ke/wp-content/uploads/2024/05/xiaomi-14-ultra-e1714574694761.jpeg"  
       }, 
       {
         "id": "3" ,
         "Title": "Samsung Galaxy S24 Ultra" , 
-        "Price": "Ksh281900", 
+        "Price": "281900", 
         "Cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1tEXjvcgQsAqeJm305NwEeMePNNdhkw7SQg&s"  
       }, 
       {
         "id": "4" ,
         "Title": "Oppo Find X7 Ultra" , 
-        "Price": "Ksh170,000", 
+        "Price": "170,000", 
         "Cover": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQs7HmlC43l_66HcijZWq9KjvHianPfFO2XT7i1FPHojcuRlTUNwJJuDRIndPw9_CwM8cGFU65kBzjTlxRQerUDJQ_IcQBIaBFagApEcYBXwvZrEQZYxEIwbK_Qwxpf0QmoswzMO4o&usqp=CAc"  
       },   
       {
         "id": "5" ,
         "Title": "Google Pixel 7a" , 
-        "Price": "Ksh51,400", 
+        "Price": "51,400", 
         "Cover": "https://www.phoneplacekenya.com/wp-content/uploads/2022/02/Google-Pixel-7.jpg"  
       },   
       {
         "id": "6" ,
         "Title": "One plus 11" , 
-        "Price": "Ksh105,598", 
+        "Price": "105,598", 
         "Cover": "https://fdn2.gsmarena.com/vv/bigpic/oneplus-11.jpg"  
       },    
       {
         "id": "7" ,
         "Title": "Samsung Galaxy S22 ultra" , 
-        "Price": "Ksh145,000", 
+        "Price": "145,000", 
         "Cover": "https://phonesstorekenya.com/wp-content/uploads/2021/09/Samsung-Galaxy-S22-Ultra-5G-a.jpg"  
       },   
       {
         "id": "8" ,
         "Title": "Samsung Galaxy Z flip" , 
-        "Price": "Ksh148,000", 
+        "Price": "148,000", 
         "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr7lhvGuaYRiszG9fsqBa4B9gIP0w82E-8hA&s"  
       },   
       {
         "id": "9" ,
         "Title": "Opoo Reno 125G" , 
-        "Price": "Ksh65,000", 
+        "Price": "65,000", 
         "Cover": "https://www.phoneplacekenya.com/wp-content/uploads/2024/04/Oppo-Reno-12-5G.jpg"  
       },   
      
       {
         "id": "10",
         "Title": "Iphone 14 pro max", 
-        "Price":"Ksh128,000", 
+        "Price":"128,000", 
         "Cover": "https://www.phoneplacekenya.com/wp-content/uploads/2022/05/iPhone-14-Pro-Max-Black.jpg"  
       }
   

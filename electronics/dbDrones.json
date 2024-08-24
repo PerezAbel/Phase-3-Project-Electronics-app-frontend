@@ -3,63 +3,63 @@
       {
         "id": "1",
         "Title": "DJI Mavic 4 Pro", 
-        "Price": "Ksh200000", 
+        "Price": "200000", 
         "Cover": "https://media.cnn.com/api/v1/images/stellar/prod/dji-mini-4-pro-product-card-cnnu.jpg?c=16x9&q=h_720,w_1280,c_fill"
       },  
       {
         "id": "2",
         "Title": "Holy Stone HS720G" , 
-        "Price": "Ksh200000", 
+        "Price": "200000", 
         "Cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzLnS03FBw8YS98gvYU8cLz7qv-U4HJQ5oOg&s"  
       }, 
       {
         "id": "3" ,
         "Title": "Parrot Anafi AI" , 
-        "Price": "Ksh281900", 
+        "Price": "281900", 
         "Cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Bu2ub4fNyO0ZN_Z1rqh0um56ndj0lr6VUg&s"  
       }, 
       {
         "id": "4" ,
         "Title": "Skydio 3" , 
-        "Price": "Ksh155000", 
+        "Price": "155000", 
         "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTj3uRTmHzlOqIrNn1AHFaXSKk39uezTkzGA&s"  
       }, 
       {
         "id": "5",
         "Title": "Autel Robotics EVO Lite+", 
-        "Price":"Ksh115000", 
+        "Price":"115000", 
         "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVXt85X07cy6Fw-l_tBDhTDAPnmaEsO_VRZA&s"  
       },  
 
       {
         "id": "6" ,
         "Title": "DJI Air 3" , 
-        "Price": "Ksh105,598", 
+        "Price": "105,598", 
         "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3bOj6ryf9L6_nIFtc432DeklKw6PL4Bf4gQ&s"  
       },    
       {
         "id": "7" ,
         "Title": "Skydio 2+" , 
-        "Price": "Ksh145,000", 
+        "Price": "145,000", 
         "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1Mej-QPNEhVHHqWIVOadGJaEYes-x65lLg&s"  
       },   
       {
         "id": "8" ,
         "Title": "Holy Stone HS720E" , 
-        "Price": "Ksh148,000", 
+        "Price": "148,000", 
         "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kMdutMwXqSSHnPBqODMm1bVR2z7Wb19CzA&s"  
       },   
       {
         "id": "9" ,
         "Title": "Parrot Anafi USA" , 
-        "Price": "Ksh65,000", 
+        "Price": "65,000", 
         "Cover": "https://www.floridadronesupply.com/cdn/shop/products/02_ANAFI_USA_GOV_722x_jpg.webp?v=1653667118"  
       },   
      
       {
         "id": "10",
         "Title": "Autel Robotics EVO Nano+", 
-        "Price":"Ksh128,000", 
+        "Price":"128,000", 
         "Cover": "https://m.media-amazon.com/images/I/71vRuffQ2IL.jpg"  
       }
   

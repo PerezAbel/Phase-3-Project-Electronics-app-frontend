@@ -43,7 +43,7 @@ function Cart() {
                 <img src={item.Cover} width="100px" height="150px" alt={item.Title} />
               </div>
               <div className="cart-item">
-                <p>Price: Ksh {item.Price}</p>
+                <p>Price: {item.Price}</p>
               </div>
               <div className="cart-item">
                 <input

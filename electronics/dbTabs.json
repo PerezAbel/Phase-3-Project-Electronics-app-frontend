@@ -3,62 +3,62 @@
       {
         "id": "1",
         "Title": "apple iPad Pro (2023)", 
-        "Price": "Ksh200000", 
+        "Price": "200000", 
         "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYeqZVZ-DXAAvvsx9lyJJdqtuc24C0S7CwnQ&s"
       },  
       {
         "id": "2",
         "Title": "Samsung Galaxy Tab S9 Series" , 
-        "Price": "Ksh200000", 
+        "Price": "200000", 
         "Cover":"https://image-us.samsung.com/SamsungUS/PIM/new_SDSAC-6164-TabS9_KV-Configurator-800x600_new.jpg"  
       }, 
       {
         "id": "3" ,
         "Title": "Microsoft Surface Pro 9" , 
-        "Price": "Ksh281900", 
+        "Price": "281900", 
         "Cover":"https://gfx3.senetic.com/akeneo-catalog/f/8/6/6/f8661c9a399704398e764e2e23e03eac15a1fa41_1677671_S8V_00004_image2.jpg"  
       }, 
       {
         "id": "4" ,
         "Title": "Lenovo Tab P12 Pro" , 
-        "Price": "Ksh155000", 
+        "Price": "155000", 
         "Cover": "https://download.lenovo.com/km/media/images/HT513080/top_20211118030548380.png"  
       }, 
       {
         "id": "5",
         "Title": "Huawei MatePad Pro 11 (2023)", 
-        "Price":"Ksh115000", 
+        "Price":"115000", 
         "Cover": "https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/tablets/matepad-11-2023-new/images/kv/Huawei-matepad-11-inch-2023-kv@2x.jpg"  
       },  
       {
         "id": "6" ,
         "Title": "Lenovo Tab Extreme 2" , 
-        "Price": "Ksh105,598", 
+        "Price": "105,598", 
         "Cover": "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6546/6546840ld.jpg;maxHeight=640;maxWidth=550"  
       },    
       {
         "id": "7" ,
         "Title": "Microsoft Surface Pro X (2024)" , 
-        "Price": "Ksh145,000", 
+        "Price": "145,000", 
         "Cover": "https://cdn.mos.cms.futurecdn.net/BMjAS7ST5GdQqwUBsCpZHd.jpg"  
       },   
       {
         "id": "8" ,
         "Title": "Samsung Galaxy Tab S10 Series" , 
-        "Price": "Ksh148,000", 
+        "Price": "148,000", 
         "Cover": "https://cdn.wccftech.com/wp-content/uploads/2024/04/Galaxy-Tab-S9-Ultra-2.jpg"  
       },   
       {
         "id": "9" ,
         "Title": "Apple iPad Pro (2024)" , 
-        "Price": "Ksh65,000", 
+        "Price": "65,000", 
         "Cover": "https://www.phoneplacekenya.com/wp-content/uploads/2024/05/Apple-iPad-Pro-13-2024.jpg"  
       },   
      
       {
         "id": "10",
         "Title": "Huawei MatePad Pro 12.6 (2024)", 
-        "Price":"Ksh128,000", 
+        "Price":"128,000", 
         "Cover": "https://www.gilb.com.ph/wp-content/uploads/2022/08/MatePad-Pro-12.6-WIFI.jpg"  
       }
   

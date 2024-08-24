@@ -3,62 +3,62 @@
       {
         "id": "1",
         "Title": "Bose Quiet Comfort Ultra", 
-        "Price": "Ksh233,999", 
+        "Price": "233,999", 
         "Cover": "https://www.phoneprice.co.ke/wp-content/uploads/2023/11/659959-Product-0-I-638303247603502221_825a5900-361c-4a56-b68d-ebe30e94db871.jpg"
       },  
       {
         "id": "2",
         "Title": "Sony WH-1000XM5" , 
-        "Price": "Ksh175,000", 
+        "Price": "175,000", 
         "Cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOux4xPx67B3OnDxjDlNlRkvE8msB70vjl7Q&s"  
       }, 
       {
         "id": "3" ,
         "Title": "Anker Soundcore Space Q45 Wireless" , 
-        "Price": "Ksh281900", 
+        "Price": "281900", 
         "Cover":"https://www.insidehook.com/wp-content/uploads/2023/06/Anker-Soundcore-Space-Q45-Wireless-.jpg?fit=1200%2C800"  
       }, 
       {
         "id": "4" ,
         "Title": "Bowers & Wilkins Px7 S2e" , 
-        "Price": "Ksh170,000", 
+        "Price": "170,000", 
         "Cover": "https://baybloorradio.com/image/cache/catalog/BW/Px7S2e/Px7-S2e-Green-1050x1050.jpg"  
       },   
       {
         "id": "5" ,
         "Title": "Audio-Technica ATH-M20xBT" , 
-        "Price": "Ksh51,400", 
+        "Price": "51,400", 
         "Cover": "https://cdn.headphonecheck.com/wp-content/uploads/tps_2866_540090_0_August31640-540090-1920x1080.jpg"  
       },   
       {
         "id": "6" ,
         "Title": "AirPods Pro 2 with USB-C:" , 
-        "Price": "Ksh105,598", 
+        "Price": "105,598", 
         "Cover": "https://i.ytimg.com/vi/5o_qtPuf6Kw/maxresdefault.jpg"  
       },    
       {
         "id": "7" ,
         "Title": "Oraimo OEB E105D" , 
-        "Price": "Ksh145,000", 
+        "Price": "145,000", 
         "Cover": "https://pictures-nigeria.jijistatic.net/119547564_MzAwLTMwNi1lY2ZjOGE2YjIw.webp"  
       },   
       {
         "id": "8" ,
         "Title": "Airpods 3" , 
-        "Price": "Ksh148,000", 
+        "Price": "148,000", 
         "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFl_OLUlB7C-PDVnyiLZzNKLOGNxcXgPjomw&s"  
       },   
       {
         "id": "9" ,
         "Title": "EarPods with USB-C:" , 
-        "Price": "Ksh65,000", 
+        "Price": "65,000", 
         "Cover": "https://media.cnn.com/api/v1/images/stellar/prod/apple-earpods-with-usb-c-cnn-5.jpg?c=16x9"  
       },   
      
       {
         "id": "10",
         "Title": "Oraimo Necklace 4", 
-        "Price":"Ksh128,000", 
+        "Price":"128,000", 
         "Cover": "https://www.phoneplacekenya.com/wp-content/uploads/2023/01/Oraimo-Necklace-4-a.jpg"  
       }
   

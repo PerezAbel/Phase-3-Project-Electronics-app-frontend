@@ -4,93 +4,93 @@
   {
     "id": "1" ,
     "Title": "Samsung Galaxy S24 Ultra" , 
-    "Price": "Ksh281900", 
+    "Price": "281900", 
     "Cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1tEXjvcgQsAqeJm305NwEeMePNNdhkw7SQg&s"  
   }, 
   {
     "id": "2" ,
     "Title": "Lenovo Tab P12 Pro" , 
-    "Price": "Ksh155000", 
+    "Price": "155000", 
     "Cover": "https://download.lenovo.com/km/media/images/HT513080/top_20211118030548380.png"  
   }, 
   {
     "id": "3",
     "Title": "Klipsch Reference R-52C", 
-    "Price":"Ksh128,000", 
+    "Price":"128,000", 
     "Cover": "https://i.pinimg.com/474x/f2/4a/14/f24a1404d2a205e4c4b38a10752bbe9c.jpg"  
   },
   {
     "id": "4",
     "Title": "Huawei Watch GT 4:", 
-    "Price":"Ksh115000", 
+    "Price":"115000", 
     "Cover": "https://www.phoneplacekenya.com/wp-content/uploads/2024/01/Huawei-Watch-GT-4-46mm-Green-Composite-Strap.jpg"  
   },  
     {
       "id": "5",
       "Title": "Autel Robotics EVO Lite+", 
-      "Price":"Ksh115000", 
+      "Price":"115000", 
       "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVXt85X07cy6Fw-l_tBDhTDAPnmaEsO_VRZA&s"  
     },  
 
     {
       "id": "6" ,
       "Title": "DJI Air 3" , 
-      "Price": "Ksh105,598", 
+      "Price": "105,598", 
       "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3bOj6ryf9L6_nIFtc432DeklKw6PL4Bf4gQ&s"  
     },    
     {
       "id": "7" ,
       "Title": "Skydio 2+" , 
-      "Price": "Ksh145,000", 
+      "Price": "145,000", 
       "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1Mej-QPNEhVHHqWIVOadGJaEYes-x65lLg&s"  
     },   
     {
       "id": "8" ,
       "Title": "Holy Stone HS720E" , 
-      "Price": "Ksh148,000", 
+      "Price": "148,000", 
       "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7kMdutMwXqSSHnPBqODMm1bVR2z7Wb19CzA&s"  
     },   
     {
       "id": "9" ,
       "Title": "Parrot Anafi USA" , 
-      "Price": "Ksh65,000", 
+      "Price": "65,000", 
       "Cover": "https://www.floridadronesupply.com/cdn/shop/products/02_ANAFI_USA_GOV_722x_jpg.webp?v=1653667118"  
     },   
    
     {
       "id": "10",
       "Title": "Autel Robotics EVO Nano+", 
-      "Price":"Ksh128,000", 
+      "Price":"128,000", 
       "Cover": "https://m.media-amazon.com/images/I/71vRuffQ2IL.jpg"  
     },      
     {
       "id": "11",
       "Title": "Iphone 15 Pro Max", 
-      "Price": "Ksh233,999", 
+      "Price": "233,999", 
       "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6K16g9jH_U-8xJexpm8k8xXaczSh_gwnQkg&s"
     },  
     {
       "id": "12" ,
       "Title": "TCL 6-Series Roku TV" , 
-      "Price": "Ksh170,000", 
+      "Price": "170,000", 
       "Cover": "https://m.media-amazon.com/images/I/91iAb0gvuML._AC_SL1500_.jpg"  
     },   
     {
       "id": "13" ,
       "Title": "Fitbit Sense 3" , 
-      "Price": "Ksh155000", 
+      "Price": "155000", 
       "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9o5y7zDMHtk-qTP6lU_T_uCZjJoD_F1zOuA&s"  
     }, 
     {
       "id": "14" ,
       "Title": "Sony A95L QD-OLED" , 
-      "Price": "Ksh281900", 
+      "Price": "281900", 
       "Cover":"https://www.sony.co.uk/commerceapi/medias/01-Hero-Image-min.jpg?context=bWFzdGVyfHJvb3R8NzAxNzU0fGltYWdlL2pwZWd8YURjMUwyZzJZUzg1TVRVMk5qWXlNVGs0TXpBeUx6QXhJRWhsY204Z1NXMWhaMlV0YldsdUxtcHdad3xiNTVjMjE5Zjc1NWMxN2IyYjEzNDg3YmJmNTJkNjBiNmJiNzJhMTczZDIwY2Y1Y2UwNTkwNzMxYjk4M2FhZjg2&trf=trim"  
     },  
     {
       "id": "15",
       "Title": "MSI Modern 14", 
-      "Price":"Ksh115000", 
+      "Price":"115000", 
       "Cover": "https://m.media-amazon.com/images/I/41jtFphuFJL._AC_UF894,1000_QL80_.jpg"  
     }
 

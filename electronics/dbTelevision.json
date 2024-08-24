@@ -4,62 +4,62 @@
     {
       "id": "1",
       "Title": "Samsung QN900C Neo QLED 8K", 
-      "Price": "Ksh233,999", 
+      "Price": "233,999", 
       "Cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShjoxCPPT_WfNK9cG_xgOze1MVe2hf31u9yg&s"
     },  
     {
       "id": "2",
       "Title": "LG G3 OLED evo" , 
-      "Price": "Ksh175,000", 
+      "Price": "175,000", 
       "Cover":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlbovnMxwUSRfG5pNtaZCk_U_byL0y1AQzVA&s"  
     }, 
     {
       "id": "3" ,
       "Title": "Sony A95L QD-OLED" , 
-      "Price": "Ksh281900", 
+      "Price": "281900", 
       "Cover":"https://www.sony.co.uk/commerceapi/medias/01-Hero-Image-min.jpg?context=bWFzdGVyfHJvb3R8NzAxNzU0fGltYWdlL2pwZWd8YURjMUwyZzJZUzg1TVRVMk5qWXlNVGs0TXpBeUx6QXhJRWhsY204Z1NXMWhaMlV0YldsdUxtcHdad3xiNTVjMjE5Zjc1NWMxN2IyYjEzNDg3YmJmNTJkNjBiNmJiNzJhMTczZDIwY2Y1Y2UwNTkwNzMxYjk4M2FhZjg2&trf=trim"  
     }, 
     {
       "id": "4" ,
       "Title": "TCL 6-Series Roku TV" , 
-      "Price": "Ksh170,000", 
+      "Price": "170,000", 
       "Cover": "https://m.media-amazon.com/images/I/91iAb0gvuML._AC_SL1500_.jpg"  
     },   
     {
       "id": "5" ,
       "Title": "Vizio P-Series Quantum X" , 
-      "Price": "Ksh51,400", 
+      "Price": "51,400", 
       "Cover": "https://m.media-amazon.com/images/I/91pKr6OfhxL._AC_SL1500_.jpg"  
     },   
     {
       "id": "6" ,
       "Title": "samsung hw-q990c price" , 
-      "Price": "Ksh105,598", 
+      "Price": "105,598", 
       "Cover": "https://www.ubuy.ke/productimg/?image=aHR0cHM6Ly9tLm1lZGlhLWFtYXpvbi5jb20vaW1hZ2VzL0kvNDFKZVBGR3Q5Q0wuX0FDX1NMMTAwMF8uanBn.jpg"  
     },    
     {
       "id": "7" ,
       "Title": "Sony HT-A7000 price" , 
-      "Price": "Ksh145,000", 
+      "Price": "145,000", 
       "Cover": "https://www.vplak.com/images/sony/HT-A7000-PLUS-SA-SW5-PLUS-SA-RS3S/black/image-1.jpg"  
     },   
     {
       "id": "8" ,
       "Title": "LG SP11RA" , 
-      "Price": "Ksh148,000", 
+      "Price": "148,000", 
       "Cover": "https://cdn.mos.cms.futurecdn.net/UTtk9tVA6pW8nxY4jEDArm.jpg"  
     },   
     {
       "id": "9" ,
       "Title": "Bose Lifestyle 650" , 
-      "Price": "Ksh65,000", 
+      "Price": "65,000", 
       "Cover": "https://dreamaudio.co.ke/wp-content/uploads/2021/08/1473948308_1281477.jpg"  
     },   
    
     {
       "id": "10",
       "Title": "Klipsch Reference R-52C", 
-      "Price":"Ksh128,000", 
+      "Price":"128,000", 
       "Cover": "https://i.pinimg.com/474x/f2/4a/14/f24a1404d2a205e4c4b38a10752bbe9c.jpg"  
     }
     
