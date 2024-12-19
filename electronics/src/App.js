@@ -40,14 +40,6 @@ import WearableTech from './components/WearableTech'
 
 
 
-<Routes>
-  <Route path="/about" component={About} />
-  {/* <Route path="/services" component={Services} /> */}
-  <Route path="/contact" component={Contact} />
-  <Route path="/cart" component={Cart} />
-  <Route path="/signup" component={SignUp} />
-  <Route path="/login" component={LogIn} />
-</Routes>
 
 
 function App() {
