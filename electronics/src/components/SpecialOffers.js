@@ -47,7 +47,15 @@ function SpecialOffers() {
       price: 15000,
       image: "https://media.wired.com/photos/5d927e2d34cab0000861c499/master/pass/Transpo_UPSDrone-9.jpg",
       rating: 4
-    }
+    },  
+    {
+      id: 5,
+      title: "C90 ULTRA watch Dual watch ",
+      description: "Fast delivery guaranteed",
+      price: 15000,
+      image: "https://www.zdnet.com/a/img/resize/f5ec485dd50e544483b69fe109865b566cba06a3/2023/09/12/aec7c4a0-a40f-43c3-8c22-ecaa9bd7759f/img-0980.jpg?auto=webp&fit=crop&height=900&width=1200",
+      rating: 4
+    },
   ];
 
   return (

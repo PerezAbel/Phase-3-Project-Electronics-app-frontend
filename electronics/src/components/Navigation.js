@@ -11,7 +11,7 @@ function Navigation() {
           <div style={{ color: '#fff', fontSize: '24px', fontWeight: 'bold', marginRight: '20px' }}>
             TECH X
           </div>
-          <Link to="/" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Home</Link>
+          <Link to="/home" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Home</Link>
           <Link to="/about" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>About</Link>
           <Link to="/contact" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>Contact</Link>
           <Link to="/cart" style={{ color: '#fff', textDecoration: 'none', margin: '0 10px' }}>

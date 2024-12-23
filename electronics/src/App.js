@@ -1,14 +1,10 @@
 /*App Component imports */
 import './App.css';
 import React, { useEffect, useState } from 'react'; 
-/*import SearchBar from './components/SearchBar';*/
+/*import SearchBar from './components/SearchBar';*/  
+
 import Footer from './components/Footer';
-import SpecialOffers from './components/SpecialOffers';
-import ImageGrid from './components/ImageGrid';
-import CircleCards from './components/CircleCards'
-import DisplayCard from './components/DisplayCard';
-import Newsletter from './components/Newsletter';
-import ImageSlider from './components/ImageSlider';
+
 import ImageDisplay from './components/ImageDisplay';
 import Card from './components/Card';
 import SellDevice from './components/SellDevice';
@@ -28,7 +24,7 @@ import About from './components/About'
 
 
 /*imports from the NavBar component */
-import NavBar from './components/NavBar'
+
 import ShopAll from './components/ShopAll';
 import ComputersLaptops from './components/ComputersLaptops';
 import Tablets from './components/Tablets';
@@ -43,13 +39,7 @@ import WearableTech from './components/WearableTech'
 
 
 function App() {
-  /*Image display code */
-  const images = [
-    'https://i.gadgets360cdn.com/large/iphone_14_pro_gold_1683696510783.jpg',
-    'https://media.licdn.com/dms/image/D5612AQGE_uzD2LP9lw/article-cover_image-shrink_720_1280/0/1676511384989?e=2147483647&v=beta&t=EB6SMknWKrMA6Gh6Fvr8def05DW4gHscERSEuqtp7rE',
-    'https://www.zdnet.com/a/img/2022/10/11/ed0ec52a-6b1b-4319-ae82-e0a81024a2f3/surfacelaptop5.jpg',
-    'https://i.ytimg.com/vi/VQJEtXeJJKQ/maxresdefault.jpg',
-  ];
+
 
   const [shop, setShop] = useState([]);
 
@@ -140,17 +130,16 @@ function App() {
      {/* <SearchBar />*/}
       <Navigation />
       <Routes>
-        <Route exact path="/" component={Home} />
-        <Route path="/about" element={<About phones={About} />} />
-        <Route path="contact/" element={<Contact phones={Contact} />} />
-        <Route path="/cart" element={<Cart phones={Cart} />} />
-        <Route path="/signup" element={<SignUp phones={SignUp} />} />
-        <Route path="/login" element={<LogIn phones={LogIn} />} />
+        <Route exact path="/home" element={<Home/>} />
+        <Route path="/about" element={<About about={About} />} />
+        <Route path="contact/" element={<Contact contact={Contact} />} />
+        <Route path="/cart" element={<Cart cart={Cart} />} />
+        <Route path="/signup" element={<SignUp signup={SignUp} />} />
+        <Route path="/login" element={<LogIn login={LogIn} />} />
       </Routes>
-      <ImageSlider images={images} />
-      <NavBar />
+     
+ 
       <Routes>
-        <Route exact path="/" component={Home} />
         <Route path="/shopall" element={<ShopAll shop={shop} />} />
         <Route path="/computersLaptops" element={<ComputersLaptops computer={computer} />} />
         <Route path="tablets/" element={<Tablets tablets={tablets} />} />
@@ -158,25 +147,16 @@ function App() {
         <Route path="/audio" element={<Audio audio={audio} />} /> 
         <Route path="/mobile" element={<Mobile mobile={mobile} />} />
         <Route path="/tvhome" element={<TvHome television={television} />} />
-        <Route path="/wearabletech" element={<WearableTech wear={wear} />} />   
-       
-
+        <Route path="/wearabletech" element={<WearableTech wear={wear} />} />    
       </Routes>  
-      
-
-      <DisplayCard />
-      <CircleCards /> 
-      
-      <ImageGrid />
-      <SpecialOffers />
-      <Newsletter />  
-      
-      <Footer />    
-      
+     
 
 
+    
+      <Footer />   
+   
       </CartProvider>
-
+   
     </div>
 
 

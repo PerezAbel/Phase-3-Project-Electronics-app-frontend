@@ -24,8 +24,9 @@ function ImageSlider({ images }) {
           style={{
             display: index === currentImageIndex ? 'block' : 'none',
             width: '100%', // Change width here (e.g., 80%)
-            height: '500px', // Change height here (e.g., 300px)
-            objectFit: 'cover', // Maintain the aspect ratio of the image
+            height: '800px', // Change height here (e.g., 300px)
+            objectFit: 'cover', // Maintain the aspect ratio of the image    
+            marginBottom: '30px'
           }}
         />
       ))}

@@ -16,7 +16,7 @@ const Newsletter = () => {
   };
 
   return (
-    <div style={{ maxWidth: '100%', margin: '0 auto', padding: '20px', border: '1px solid #ccc', borderRadius: '5px' }}>
+    <div style={{ maxWidth: '100%', margin: '0 auto', padding: '20px', border: '1px solid #ccc', borderRadius: '5px', marginTop: '50px' }}>
       <h2 style={{ fontSize: '1.5rem', marginBottom: '20px' }}>Subscribe to our Newsletter</h2>  
       <p>Sign up to receive updates on new arrivals and special offers </p>
       <form onSubmit={handleSubmit}>
