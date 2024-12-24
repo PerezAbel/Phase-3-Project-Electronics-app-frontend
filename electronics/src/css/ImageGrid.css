@@ -22,5 +22,24 @@
   .image-grid-item p {
     margin-top: 5px;
     font-size: 14px;
+  }  
+
+  .image-grid-item:hover {
+    transform: scale(1.5); /* Enlarges the item when hovered */
   }
+  
+
+.image-grid-item .fa-icon {
+  transition: transform 50s ease-in-out;
+}
+
+.image-grid-item:hover .fa-icon {
+  transform: scale(2.0); /* Enlarges the icon further when hovered */
+}
+
+.image-grid-item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: grey;
+}
   

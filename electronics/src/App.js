@@ -35,6 +35,11 @@ import TvHome from './components/TvHome';
 import WearableTech from './components/WearableTech'
 
 
+//imports form the DisplayCards    
+import Laptop from './components/Laptops';  
+import Headphone from './components/Headphone';
+
+
 
 
 
@@ -150,6 +155,12 @@ function App() {
         <Route path="/wearabletech" element={<WearableTech wear={wear} />} />    
       </Routes>  
      
+
+      <Routes>
+        <Route path="/laptop" element={<Laptop/>} />
+        <Route path="/headphone" element={<Headphone />} />
+      </Routes>    
+
 
 
     

@@ -31,4 +31,13 @@
     gap: 20px; /* Gap between cards */
     justify-content: center;   
  
-}
+}    
+
+.circle-card:hover {
+    transform: scale(1.2); /* Enlarge the card */
+  }
+  
+  .circle-card:hover img {
+    transform: scale(1.2); /* Enlarge the image slightly more for a zoom effect */
+  }
+
